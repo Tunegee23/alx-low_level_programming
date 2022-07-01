@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-/
+/**
 * main -Entry pont
 * Return: Always(0)
  */
