@@ -1,4 +1,4 @@
-#include <stido.h>
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -10,7 +10,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		prtintf("%d", i);
+		printf("%d", i);
 	}
 	printf("\n");
 	return (0);
