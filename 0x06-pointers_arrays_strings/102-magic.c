@@ -16,10 +16,10 @@ int main(void)
 	 * - only one statement
 	 * - you are not allowed to code anything else than this line of code
 	 */
-	 *(p + 5) = 98;
+	*(p + 5) = 98;
 
-	  printf("%p\n", &a[2]);
-	  printf("%p\n", p);
+	printf("%p\n", &a[2]);
+	printf("%p\n", p);
 	for (int i = 0; i < 5; i++)
 		printf("%p\n", p + (i + 1));
 	/* ...so that this prints 98\n */
