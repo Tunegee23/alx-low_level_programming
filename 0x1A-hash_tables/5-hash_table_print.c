@@ -1,4 +1,4 @@
-i#include "hash_tables.h"
+#include "hash_tables.h"
 
 void print_node(hash_node_t *n);
 
